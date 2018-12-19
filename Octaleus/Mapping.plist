@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TrackerAccount</key>
+	<dict>
+		<key>account_id</key>
+		<string>id</string>
+		<key>deviceCount</key>
+		<string>deviceCount</string>
+		<key>email</key>
+		<string>email</string>
+		<key>name</key>
+		<string>name</string>
+		<key>distanceType</key>
+		<string>distanceType</string>
+		<key>isExternalUser</key>
+		<string>isExternalUser</string>
+		<key>timezone</key>
+		<string>timezone</string>
+	</dict>
+	<key>TrackerDevice</key>
+	<dict>
+		<key>device_id</key>
+		<string>device_id</string>
+		<key>activationStatus</key>
+		<string>activationStatus</string>
+		<key>batteryCharge</key>
+		<string>batteryCharge</string>
+		<key>communicationProtocol</key>
+		<string>communicationProtocol</string>
+		<key>firmwareVersion</key>
+		<string>firmwareVersion</string>
+		<key>imei</key>
+		<string>imei</string>
+		<key>isOwn</key>
+		<string>isOwn</string>
+		<key>name</key>
+		<string>name</string>
+		<key>panicMode</key>
+		<string>panicMode</string>
+		<key>schedule</key>
+		<string>schedule</string>
+		<key>schedulePending</key>
+		<string>schedulePending</string>
+		<key>serialId</key>
+		<string>serialId</string>
+		<key>shareCount</key>
+		<string>shareCount</string>
+		<key>simNumber</key>
+		<string>simNumber</string>
+	</dict>
+</dict>
+</plist>

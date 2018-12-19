@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C88" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="BLEDevice" representedClassName="BLEDevice" syncable="YES">
+        <attribute name="batteryLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="systemId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NexGenDevice" representedClassName="NexGenDevice" syncable="YES">
+        <attribute name="serial_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tracker_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TrackerAccount" representedClassName="TrackerAccount" syncable="YES">
+        <attribute name="account_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="auth_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="distanceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isExternalUser" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="TrackerDevice" representedClassName="TrackerDevice" syncable="YES">
+        <attribute name="activationStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="batteryCharge" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="communicationProtocol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="device_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="firmwareVersion" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="imei" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOwn" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="panicMode" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="schedule" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schedulePending" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="serialId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shareCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="simNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BLEDevice" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="TrackerAccount" positionX="-63" positionY="9" width="128" height="165"/>
+        <element name="TrackerDevice" positionX="-63" positionY="54" width="128" height="255"/>
+        <element name="NexGenDevice" positionX="-63" positionY="126" width="128" height="75"/>
+    </elements>
+</model>

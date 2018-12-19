@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="Zgu-Wk-KES" id="dAj-Wy-Mk9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Na2-4i-xf1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </window>
+        <customObject id="Zgu-Wk-KES" customClass="AppDelegate">
+            <connections>
+                <outlet property="navigationController" destination="bGd-ee-90z" id="aOo-aV-4jo"/>
+                <outlet property="window" destination="Na2-4i-xf1" id="AZ1-UZ-rd5"/>
+            </connections>
+        </customObject>
+        <navigationController id="bGd-ee-90z">
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="kDW-uU-wBc">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </navigationBar>
+            <viewControllers>
+                <viewController title="DashboardViewController" nibName="DashboardViewController" id="2lV-7z-mRC" customClass="DashboardViewController">
+                    <navigationItem key="navigationItem" title="BT-Connect" id="Vwp-RL-buz"/>
+                </viewController>
+            </viewControllers>
+            <connections>
+                <outlet property="delegate" destination="Zgu-Wk-KES" id="tur-93-lXv"/>
+            </connections>
+        </navigationController>
+    </objects>
+</document>

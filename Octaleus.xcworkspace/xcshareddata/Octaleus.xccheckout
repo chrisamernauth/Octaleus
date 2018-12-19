@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F340666D-0458-463F-827B-E70BEBFD2274</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Octaleus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DAF9D5C0BC8B53C8B0E6E9EDAF739A4F4C6E9E1D</key>
+		<string>https://bitbucket.org/rahul_soni_/octaleus.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Octaleus/Octaleus.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DAF9D5C0BC8B53C8B0E6E9EDAF739A4F4C6E9E1D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/rahul_soni_/octaleus.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DAF9D5C0BC8B53C8B0E6E9EDAF739A4F4C6E9E1D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DAF9D5C0BC8B53C8B0E6E9EDAF739A4F4C6E9E1D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OctaleusBitbucket</string>
+		</dict>
+	</array>
+</dict>
+</plist>

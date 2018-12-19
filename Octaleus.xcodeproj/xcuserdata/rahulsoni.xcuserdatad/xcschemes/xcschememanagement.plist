@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Coregen.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Mogenerator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Octaleus.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>704A556E1C8769A8002FF643</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>704A55731C877438002FF643</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70E421191C4A1F4E0087A001</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70E421351C4A1F4E0087A001</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
